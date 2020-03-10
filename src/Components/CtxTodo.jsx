@@ -1,8 +1,5 @@
-import React from 'react';
+import {createContext} from 'react';
 
-const CtxTodo = () => {
-    
-}
-
+const CtxTodo = createContext ([])
 
 export default CtxTodo;
