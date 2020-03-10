@@ -1,9 +1,13 @@
 import React from 'react';
-import Todo from './Todo'
+import Todo from './Todo';
+import '../CSS/TodoList.css';
 
 const Todolist = () => {
   return (
-    <Todo/>
+    <div className='list'>
+      <Todo/>
+    </div>
+    
   )
 }
 
